@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     max-width: 1200px;
@@ -30,6 +31,14 @@ header nav ul{
     padding: 2px 0px 2px 15.813px;
     align-items: center;
     gap: 32px;
+}
+header nav ul button{
+    width: 155px;
+    height: 46px;
+    border-radius: 14px;
+    background: #1B1A1A;
+    color: white;
+    border: none;
 }
 header .Wishbone-Partners{
     display: flex;
@@ -112,4 +121,125 @@ section .Our-firm-item .box span p{
     font-size: 14px;
     font-weight: 400;
     line-height: 14px;
+}
+section .Reeding-House{
+    height: 700px;
+    background-image: url(./img/IMAGE\ \(2\).png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px;
+}
+section .Reeding-House .title{
+    position: absolute;
+    right: 75px;
+    top: 266px;
+}
+section .Reeding-House p{
+    color: #403E3B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+section .Reeding-House span{
+    color: #645C55;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.our-process h4{
+    color: #645C55;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+.our-process h2{
+    color: #1B1A1A;
+    text-align: center;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 47px;
+}
+.our-process .box-flex{
+    display: flex;
+}
+.our-process .box-child{
+    text-align: center;
+    padding: 0 42px 10px 42px;
+    margin-bottom: 100px;
+}
+.our-process img{
+    margin-bottom: 15px;
+}
+.our-process .box-child span{
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #403E3B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.our-process .box-child p{
+    color: #645C55;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.our-process .the-marble-staircase{
+    height: 600px;
+    background-image: url(./img/IMAGE\ \(6\).png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+.our-process .the-marble-staircase .title{
+    position: absolute;
+    right: 75px;
+    top: 266px;
+}
+.prior-clients .grid-parent .parent-item h5{
+    color: #ECE7E4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.prior-clients .grid-parent{
+    height: 410px;
+    background: #403E3B;
+}
+.prior-clients .grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 132px;
+}
+.prior-clients .parent-item{
+    margin: 125px 0;
+}
+.prior-clients .parent-item h2{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px; 
+}
+.prior-clients  .parent-item p{
+    color: #ECE7E4;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.prior-clients .grid-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
 }
