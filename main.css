@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+header img{
+    height: 100%;
+}
+
+header nav{
+    display: flex;
+    padding: 20px 20px 20px 32px;
+    justify-content:    space-between;
+    align-items: center;
+    gap: 343.188px;
+}
+header nav ul{
+    display: flex;
+    height: 50px;
+    padding: 2px 0px 2px 15.813px;
+    align-items: center;
+    gap: 32px;
+}
+header .Wishbone-Partners{
+    display: flex;
+    height: 600px;
+    background: #ECE7E4;
+
+}
+header .Wishbone-Partners-item span{
+    display: inline-block;
+    color: #645C55;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+header .item-1{
+    margin: 77px 60px;
+    padding: 60px 40px 40px 51px;
+}
+header .Wishbone-Partners-item h1{
+    color: #1B1A1A;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    margin-bottom: 18px;
+}
+header .Wishbone-Partners-item p{
+    color: #403E3B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+header .Wishbone-Partners-item button{
+    width: 133px;
+    height: 46px;
+    color: #1B1A1A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    background-color: transparent;
+    border: 0;
+}
+section .Our-firm{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 100px 366px;
+}
+section .Our-firm-item h3{
+    color: #403E3B;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px; 
+}
+section .Our-firm-item p{
+    color: #403E3B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+section .Our-firm-item .box{
+    display: flex;
+    height: 100px;
+    padding: 0px 221.328px 0px 0.344px;
+    align-items: center;
+}
+section .Our-firm-item .box span{
+    display: block;
+    margin-left: 20px;
+    color: #1B1A1A;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+}
+section .Our-firm-item .box span p{
+    color: #645C55;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
